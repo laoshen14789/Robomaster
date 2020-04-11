@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=JDA30-BJUC2-LVV1I-T3M8J-UAXNM-6UD9H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.26.2.0
+Toolchain Path:  E:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\x\Desktop\RoboMAster C620电调Demo程序V1.0\C620电调Demo程序\MDK-ARM\demo.uvprojx
+Project File Date:  11/01/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target 'demo'
+compiling bsp_uart.c...
+bsp\bsp_uart.h(9): warning:  #1295-D: Deprecated declaration uartinit - give arg types
+  void uartinit();
+bsp\bsp_uart.c(14): warning:  #550-D: variable "angle_x"  was set but never used
+  	int angle_x,angle_y;
+bsp\bsp_uart.c(14): warning:  #550-D: variable "angle_y"  was set but never used
+  	int angle_x,angle_y;
+bsp\bsp_uart.c(13): warning:  #177-D: function "uart_rx_idle_callback"  was declared but never referenced
+  static void uart_rx_idle_callback(UART_HandleTypeDef* huart){
+bsp\bsp_uart.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=16268 RO-data=548 RW-data=112 ZI-data=18592  
+"demo\demo.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_demo
+  E:\keil5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  E:\keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
